@@ -1,0 +1,863 @@
+{
+    name: "Gentle Modpack",
+    description: "Recipe changes for Gentle Modpack.",
+    sets: [
+        {
+            name: "default",
+            operations: [
+                // Hide uncraftable/superfluous ArmorPlus armors
+                {
+                    type: "hide",
+                    what: "armorplus:slime_boots"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:slime_helmet"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:slime_chestplate"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:slime_leggings"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_boots"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_helmet"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_chestplate"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_leggings"
+                },
+
+                // Remove OP recipe
+
+                {
+                    type: "remove",
+                    what: "armorplus:steel_ingot"
+                },
+
+                {
+                    type: "remove",
+                    what: "armorplus:steel_block"
+                },
+
+                {
+                    type: "hide",
+                    what: "armorplus:steel_ingot"
+                },
+
+                {
+                    type: "hide",
+                    what: "armorplus:steel_block"
+                },
+
+                // Hide electrical ingot, can't remove because no Armor Forge support
+
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_ingot"
+                },
+
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_block"
+                },
+                // Reliquary balance
+                {
+                    type: "remove",
+                    what: "xreliquary:alkahestry_tome"
+                },
+                {
+                    type: "hide",
+                    what: "xreliquary:alkahestry_tome"
+                },
+                {
+                    type: "remove",
+                    what: "xreliquary:interdiction_torch"
+                },
+                {
+                    type: "hide",
+                    what: "xreliquary:interdiction_torch"
+                },
+
+                //Hide some Tinker I/O stuff
+                {
+                    type: "hide",
+                    what: "tinker_io:Ore_Crusher"
+                },
+                {
+                    type: "remove",
+                    what: "tinker_io:Ore_Crusher"
+                },
+                {
+                    type: "hide",
+                    what: "tinker_io:Stirling_Engine"
+                },
+                {
+                    type: "remove",
+                    what: "tinker_io:Stirling_Engine"
+                },
+
+                //
+                // Ore dict fixes
+                //
+
+                // Making IE bauxite smelt/grind in TechReborn machines
+                {
+                    type: "registerOreDictItem",
+                    what: "immersiveengineering:ore:1",
+                    oreDict: "oreBauxite"
+                },
+
+                // Making IE's aluminium compatible with Substratum's
+
+                {
+                    type: "registerOreDictItem",
+                    what: "immersiveengineering:metal:1",
+                    oreDict: "ingotAluminium"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "immersiveengineering:metal:21",
+                    oreDict: "nuggetAluminium"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "immersiveengineering:metal:10",
+                    oreDict: "dustAluminium"
+                },
+                {
+
+                    type: "registerOreDictItem",
+                    what: "substratum:dustSmall:28",
+                    oreDict: "dustSmallAluminium"
+                },
+
+
+                //
+                // Recipe Balance
+                //
+
+                //BoP biome finder
+                {
+                    type: "remove",
+                    what: "biomesoplenty:biome_finder"
+                },
+                {
+                    type: "addShaped",
+                    what: "biomesoplenty:biome_finder",
+                    quantity: 1,
+                    with: [
+                        "", "minecraft:ender_pearl","",
+                        "minecraft:ender_pearl", "minecraft:blaze_rod", "minecraft:ender_pearl",
+                        "", "minecraft:ender_pearl",""
+                    ]
+                },
+
+                //RFTools Machine Block recipe rebalance
+                {
+                    type: "remove",
+                    what: "rftools:machine_frame"
+                },
+                {
+                    type: "addShaped",
+                    output: "rftools:machine_frame",
+                    quantity: 1,
+                    with: [
+                        "minecraft:iron_ingot", "minecraft:ender_pearl","minecraft:iron_ingot",
+                        "minecraft:iron_ingot", "minecraft:iron_block", "minecraft:iron_ingot",
+                        "minecraft:iron_ingot", "minecraft:ender_pearl","minecraft:iron_ingot"
+                    ]
+                },
+
+                //EndeRIO Frame recipe
+
+                {
+                    type: "remove",
+                    what: "enderio:itemMachinePart"
+                },
+
+                {
+                    type: "addShaped",
+                    output:"enderio:itemMachinePart",
+                    quantity: 1,
+                    with: [
+                        "minecraft:barsIron", "minecraft:iron_ingot", "minecraft:barsIron",
+                        "minecraft:ender_pearl", "enderio:itemBasicCapacitor", "minecraft:ender_pearl",
+                        "minecraft:barsIron", "minecraft:iron_ingot","minecraft:barsIron"
+                    ]
+                },
+                //Computercraft recipe rebalance
+                {
+                    type: "remove",
+                    what: "computercraft:CC-Computer:0"
+                },
+                {
+                    type: "addShaped",
+                    output: "computercraft:CC-Computer:0",
+                    quantity: 1,
+                    with: [
+                        "minecraft:iron_block", "minecraft:ender_pearl","minecraft:iron_block",
+                        "minecraft:gold_ingot", "minecraft:redstone_block", "minecraft:gold_ingot",
+                        "minecraft:iron_block", "minecraft:ender_pearl","minecraft:iron_block"
+                    ]
+                },
+                {
+                    type: "remove",
+                    what: "computercraft:CC-Computer:16384"
+                },
+                {
+                    type: "addShaped",
+                    output: "computercraft:CC-Computer:16384",
+                    quantity: 1,
+                    with: [
+                        "minecraft:gold_ingot", "minecraft:gold_ingot","minecraft:gold_ingot",
+                        "minecraft:gold_ingot", "computercraft:CC-Computer:0", "minecraft:gold_ingot",
+                        "minecraft:gold_ingot", "minecraft:ender_pearl","minecraft:gold_ingot"
+                    ]
+                },
+
+                //
+                // Hide items from JEI
+                //
+
+
+
+                // Hide Malisis trapdoors
+
+                {
+                    type: "hide",
+                    what: "malisisdoors:trapdoor_spruce"
+                },
+                {
+                    type: "remove",
+                    what: "malisisdoors:trapdoor_spruce"
+                },
+
+                {
+                    type: "hide",
+                    what: "malisisdoors:trapdoor_dark_oak"
+                },
+                {
+                    type: "remove",
+                    what: "malisisdoors:trapdoor_dark_oak"
+                },
+
+                {
+                    type: "hide",
+                    what: "malisisdoors:trapdoor_jungle"
+                },
+                {
+                    type: "remove",
+                    what: "malisisdoors:trapdoor_jungle"
+                },
+
+                {
+                    type: "hide",
+                    what: "malisisdoors:trapdoor_acacia"
+                },
+                {
+                    type: "remove",
+                    what: "malisisdoors:trapdoor_acacia"
+                },
+                // Elytra recipe
+                {
+                    type: "addShaped",
+                    output: "minecraft:elytra",
+                    quantity: 1,
+                    with: [
+                        "minecraft:feather", "minecraft:ender_eye","minecraft:feather",
+                        "minecraft:feather", "", "minecraft:feather"
+                    ]
+                },
+                // Hide Actually Additions stuff, disabled in config
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemCrafterOnAStick"
+                },
+
+                //Emerald
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelEmerald"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeEmerald"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeEmerald"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeEmerald"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelEmerald"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeEmerald"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeEmerald"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeEmerald"
+                },
+
+                //Black Quartz
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelQuartz"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeQuartz"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeQuartz"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeQuartz"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelQuartz"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeQuartz"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeQuartz"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeQuartz"
+                },
+
+                //Obsidian
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelObsidian"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeObsidian"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeObsidian"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeObsidian"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelObsidian"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeObsidian"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeObsidian"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeObsidian"
+                },
+
+                //Restonia
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelCrystalRed"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeCrystalRed"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeCrystalRed"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeCrystalRed"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelCrystalRed"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeCrystalRed"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeCrystalRed"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeCrystalRed"
+                },
+
+                //Palis
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelCrystalBlue"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeCrystalBlue"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeCrystalBlue"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeCrystalBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelCrystalBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeCrystalBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeCrystalBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeCrystalBlue"
+                },
+
+                //Diamatine
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelCrystalLightBlue"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeCrystalLightBlue"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeCrystalLightBlue"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeCrystalLightBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelCrystalLightBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeCrystalLightBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeCrystalLightBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeCrystalLightBlue"
+                },
+
+                //Void Crystal
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelCrystalBlack"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeCrystalBlack"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeCrystalBlack"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeCrystalBlack"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelCrystalBlack"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeCrystalBlack"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeCrystalBlack"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeCrystalBlack"
+                },
+
+                //Emeradic
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelCrystalGreen"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeCrystalGreen"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeCrystalGreen"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeCrystalGreen"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelCrystalGreen"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeCrystalGreen"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeCrystalGreen"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeCrystalGreen"
+                },
+
+                //Enori Crystal
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemShovelCrystalWhite"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPickaxeCrystalWhite"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemAxeCrystalWhite"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemHoeCrystalWhite"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemShovelCrystalWhite"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPickaxeCrystalWhite"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemAxeCrystalWhite"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemHoeCrystalWhite"
+                },
+
+                //Remove & hide AA's AIOTs
+
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:woodenPaxel"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:stonePaxel"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:ironPaxel"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:diamondPaxel"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:emeraldPaxel"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:obsidianPaxel"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:quartzPaxel"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:goldenPaxel"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPaxelCrystalRed"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPaxelCrystalBlue"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPaxelCrystalLightBlue"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPaxelCrystalGreen"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPaxelCrystalBlack"
+                },
+
+                {
+                    type: "hide",
+                    what: "actuallyadditions:itemPaxelCrystalWhite"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:woodenPaxel"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:stonePaxel"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:ironPaxel"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:diamondPaxel"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:emeraldPaxel"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:obsidianPaxel"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:quartzPaxel"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:goldenPaxel"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPaxelCrystalRed"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPaxelCrystalBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPaxelCrystalLightBlue"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPaxelCrystalGreen"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPaxelCrystalBlack"
+                },
+
+                {
+                    type: "remove",
+                    what: "actuallyadditions:itemPaxelCrystalWhite"
+                },
+
+                // Reverse bow craft recipe
+                {
+                    type: "addShapeless",
+                    output: "minecraft:string",
+                    quantity: 1,
+                    with: [
+                        "minecraft:bow:*"
+                    ]
+                },
+                //Foundry recipe change
+                {
+                    type: "remove",
+                    what: "giacomosfoundry:foundry"
+                },
+                {
+                    type: "addShaped",
+                    output: "giacomosfoundry:foundry",
+                    quantity: 1,
+                    with: [
+                        "minecraft:brick_block", "minecraft:brick_block","minecraft:brick_block",
+                        "minecraft:brick_block", "", "minecraft:brick_block",
+                        "minecraft:brick_block", "minecraft:brick_block","minecraft:brick_block"
+                    ]
+                },
+                // Add quartz to the sand drop table
+                {
+                    type: "setBlockDrops",
+                    what: ["minecraft:sand"],
+                    replace: true,
+                    drops: [
+                            {
+                                what: "minecraft:quartz",
+                                min: 1,
+                                max: 1,
+                                chance:0.1,
+                                silkTouch: false,
+                                minFortuneLevel: 0,
+                                otherwise: {
+                                    min: 1,
+                                    max: 1,
+                                    what: "minecraft:sand",
+                                }
+                           }
+                       ]
+                },
+
+                // Starter set
+                {
+                    type: "addStarterItem",
+                    what: ["enchiridion:book:0:1:={identifier:\"Guidebook\"}", "minecraft:stone_axe","minecraft:apple:0:5", "toughasnails:canteen", "minecraft:flint_and_steel:62:1"]
+                }
+            ]
+        }
+    ]
+}

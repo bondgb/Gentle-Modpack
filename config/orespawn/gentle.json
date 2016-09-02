@@ -1,0 +1,239 @@
+[
+  {
+    "dimension": -1,
+    "ores": [
+      {
+        "block": "minecraft:quartz_ore",
+        "size": 15,
+        "variation": 4,
+        "frequency": 7,
+        "min_height": 0,
+        "max_height": 128
+      },
+      {
+        "block": "substratum:oreDust:1",
+        "state": "ore=niter",
+        "size": 7,
+        "variation": 4,
+        "frequency": 4,
+        "min_height": 0,
+        "max_height": 128
+      },
+      {
+        "block": "substratum:oreDust:0",
+        "state": "ore=sulfur",
+        "size": 7,
+        "variation": 4,
+        "frequency": 4,
+        "min_height": 0,
+        "max_height": 128
+      }
+    ]
+  },
+  {
+    "ores": [
+      {
+        "block": "minecraft:clay",
+        "size": 22,
+        "variation": 12,
+        "frequency": 5,
+        "min_height": 0,
+        "max_height": 64
+      },
+      {
+        "block": "minecraft:obsidian",
+        "size": 4,
+        "variation": 2,
+        "frequency": 1,
+        "min_height": 16,
+        "max_height": 24
+      },
+      {
+        "block": "minecraft:stone",
+        "state": "variant=andesite",
+        "size": 30,
+        "variation": 10,
+        "frequency": 10,
+        "min_height": 0,
+        "max_height": 80
+      },
+      {
+        "block": "minecraft:stone",
+        "state": "variant=diorite",
+        "size": 30,
+        "variation": 50,
+        "frequency": 10,
+        "min_height": 0,
+        "max_height": 80
+      },
+      {
+        "block": "minecraft:stone",
+        "state": "variant=granite",
+        "size": 30,
+        "variation": 10,
+        "frequency": 10,
+        "min_height": 0,
+        "max_height": 80
+      },
+      {
+        "block": "minecraft:coal_ore",
+        "size": 22,
+        "variation": 15,
+        "frequency": 15,
+        "min_height": 4,
+        "max_height": 128
+      },
+      {
+        "block": "minecraft:iron_ore",
+        "size": 14,
+        "variation": 10,
+        "frequency": 10,
+        "min_height": 0,
+        "max_height": 64
+      },
+      {
+        "block": "minecraft:gold_ore",
+        "size": 16,
+        "variation": 13,
+        "frequency": 4,
+        "min_height": 0,
+        "max_height": 37
+      },
+      {
+        "block": "minecraft:redstone_ore",
+        "size": 16,
+        "variation": 8,
+        "frequency": 8,
+        "min_height": 0,
+        "max_height": 24
+      },
+      {
+        "block": "minecraft:lapis_ore",
+        "size": 22,
+        "variation": 18,
+        "frequency": 2,
+        "min_height": 0,
+        "max_height": 32
+      },
+      {
+        "block": "minecraft:emerald_ore",
+        "size": 8,
+        "variation": 4,
+        "frequency": 2,
+        "min_height": 0,
+        "max_height": 21
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "size": 11,
+        "variation": 5,
+        "frequency": 2,
+        "min_height": 0,
+        "max_height": 23
+      },
+      {
+        "block": "substratum:ore:0",
+        "state": "ore=copper",
+        "size": 11,
+        "variation": 7,
+        "frequency": 6,
+        "min_height": 20,
+        "max_height": 50
+      },
+      {
+        "block": "substratum:ore:1",
+        "state": "ore=tin",
+        "size": 7,
+        "variation": 4,
+        "frequency": 5,
+        "min_height": 16,
+        "max_height": 52
+      },
+      {
+        "block": "substratum:ore:2",
+        "state": "ore=nickel",
+        "size": 14,
+        "variation": 10,
+        "frequency": 5,
+        "min_height": 0,
+        "max_height": 36
+      },
+      {
+        "block": "substratum:ore:4",
+        "state": "ore=silver",
+        "size": 14,
+        "variation": 7,
+        "frequency": 5,
+        "min_height": 0,
+        "max_height": 42
+      },
+      {
+        "block": "substratum:ore:5",
+        "state": "ore=lead",
+        "size": 7,
+        "variation": 5,
+        "frequency": 6,
+        "min_height": 16,
+        "max_height": 48
+      },
+      {
+        "block": "substratum:ore:6",
+        "state": "ore=platinum",
+        "size": 5,
+        "variation": 2,
+        "frequency": 3,
+        "min_height": 20,
+        "max_height": 60
+      },
+      {
+        "block": "substratum:ore:3",
+        "state": "ore=zinc",
+        "size": 8,
+        "variation": 4,
+        "frequency": 5,
+        "min_height": 20,
+        "max_height": 60
+      },
+      {
+        "block": "tile.techreborn.ore:1",
+        "state":"type=iridium",
+        "size": 5,
+        "variation": 3,
+        "frequency": 4,
+        "min_height": 15,
+        "max_height": 30
+      },
+      {
+        "block": "immersiveengineering:ore:1",
+        "state": "type=aluminum",
+        "size": 16,
+        "variation": 10,
+        "frequency": 6,
+        "min_height": 16,
+        "max_height": 40
+      },
+      {
+        "block": "bigreactors:brOre",
+        "state": "ore=yellorite",
+        "size": 16,
+        "variation": 10,
+        "frequency": 16,
+        "min_height": 16,
+        "max_height": 50,
+        "biomes": [
+          "biomesoplenty:dead_forest",
+          "biomesoplenty:dead_swamp",
+          "biomesoplenty:wasteland"
+        ]
+      },
+      {
+        "block": "biomesoplenty:biome_block",
+        "size": 1,
+        "variation": 5,
+        "frequency": 1,
+        "min_height": 16,
+        "max_height": 50
+      }
+    ]
+  }
+]

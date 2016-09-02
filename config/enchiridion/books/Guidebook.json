@@ -1,0 +1,457 @@
+{
+  "modid": "",
+  "uniqueName": "Guidebook",
+  "saveName": "Guidebook",
+  "displayName": "Guidebook",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_US",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "backgroundStartX": -10,
+  "backgroundStartY": -10,
+  "backgroundEndX": 440,
+  "backgroundEndY": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 29,
+          "yPos": 91,
+          "width": 171.0,
+          "height": 174.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Welcome to the Gentle Modpack!\nHere a few pointers to get you\nsituated in your new world:\n\n- Be sure to stay hydrated and\nfed. Make a campfire and a charcoal filter for your canteen. If you\u0027re in a colder climate, make sure to make some wool armor!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 233,
+          "yPos": 26,
+          "width": 171.0,
+          "height": 161.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "- It gets dark at night, really dark! Make sure to always carry torches. If you\u0027re running low on coal you can make Tiny Torches.\n\n- Mobs are much stronger and scarier. They have more health, are sneaky and spawn with armor and weapons.\n\n- If you ever get lonely or need some more protection you can tame some wolves to keep you company.\n\n- Ores and minerals are plentiful in this world, be sure to go mining quick.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 17,
+          "yPos": 25,
+          "width": 189.0,
+          "height": 64.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Guidebook/logo_small.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 4,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": true,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 22,
+          "yPos": 26,
+          "width": 177.0,
+          "height": 170.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "- Make a Expandeable Backpack so you\u0027ll always have some inventory space and some handy features.\n\n- If you want to get around fast in your world you can use ViesCraft\u0027s air balloons or the vast underground oceans using a boat\n\n- Use Tinker\u0027s Construct place block feature to light your way while mining and exploring. Later-game: use Lantern of Paranoia\n\n",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 235,
+          "yPos": 27,
+          "width": 167.0,
+          "height": 169.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "General tips:\n\n- 10% drop chance of quartz when you break sand\n- Sand grinds into quartz in a SAG Mill (50% chance)\n- Quartz is in dungeons\n- Strongest tools found through TC customization\n- Strongest armors in ArmorPlus\n- Automation is your friend\n- Strong golems\n- Smart wolves\n- Use a coal helmet for night vision while caving\n- Use a foundry to convert useless loot to base metals\n- Enhance yourself using Cyberware\n-- Make a signal tower!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        }
+      ],
+      "pageNumber": 1,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 21,
+          "yPos": 20,
+          "width": 177.0,
+          "height": 177.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "- Travel with nomadic tents\n- Make RfTools dimensions\n- Use chunk loaders: Persistent Bits, TechReborn or ExtraUtils2\n- Use MorphTool for wrenches\n- Watch out for Blood Moon, build defenses\n- Use Schematica or Capsules to save structures\n- Use Cooking For Blockheads for your food recipes\n- Use a biome finder to find dead biomes, these contain Yellorite!\n- Use waystones and recall stones\n- Make reactors, watcj it though they chew through your fuel - best used as backup generator\n- Reactors require steel; use a IE blast furnace to make this",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        }
+      ],
+      "pageNumber": 2,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 3,
+      "isScrollable": false
+    }
+  ]
+}
