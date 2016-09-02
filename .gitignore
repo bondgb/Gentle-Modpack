@@ -47,7 +47,8 @@ Temporary Items
 .apdisk
 
 *
+!.gitignore
 
-!config/*
-!resources
-!orespawn
+!config/
+!resources/
+!orespawn/
