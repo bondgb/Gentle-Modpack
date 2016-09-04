@@ -11,8 +11,8 @@
         "max_height": 128
       },
       {
-        "block": "substratum:oreDust:1",
-        "state": "ore=niter",
+        "block": "substratum:oreDust",
+        "state": "variant=niter",
         "size": 7,
         "variation": 4,
         "frequency": 4,
@@ -20,8 +20,8 @@
         "max_height": 128
       },
       {
-        "block": "substratum:oreDust:0",
-        "state": "ore=sulfur",
+        "block": "substratum:oreDust",
+        "state": "variant=sulfur",
         "size": 7,
         "variation": 4,
         "frequency": 4,
@@ -132,8 +132,8 @@
         "max_height": 23
       },
       {
-        "block": "substratum:ore:0",
-        "state": "ore=copper",
+        "block": "substratum:ore",
+        "state": "variant=copper",
         "size": 11,
         "variation": 7,
         "frequency": 6,
@@ -141,8 +141,8 @@
         "max_height": 50
       },
       {
-        "block": "substratum:ore:1",
-        "state": "ore=tin",
+        "block": "substratum:ore",
+        "state": "variant=tin",
         "size": 7,
         "variation": 4,
         "frequency": 5,
@@ -150,8 +150,8 @@
         "max_height": 52
       },
       {
-        "block": "substratum:ore:2",
-        "state": "ore=nickel",
+        "block": "substratum:ore",
+        "state": "variant=nickel",
         "size": 14,
         "variation": 10,
         "frequency": 5,
@@ -159,8 +159,8 @@
         "max_height": 36
       },
       {
-        "block": "substratum:ore:4",
-        "state": "ore=silver",
+        "block": "substratum:ore",
+        "state": "variant=silver",
         "size": 14,
         "variation": 7,
         "frequency": 5,
@@ -168,8 +168,8 @@
         "max_height": 42
       },
       {
-        "block": "substratum:ore:5",
-        "state": "ore=lead",
+        "block": "substratum:ore",
+        "state": "variant=lead",
         "size": 7,
         "variation": 5,
         "frequency": 6,
@@ -177,8 +177,8 @@
         "max_height": 48
       },
       {
-        "block": "substratum:ore:6",
-        "state": "ore=platinum",
+        "block": "substratum:ore",
+        "state": "variant=platinum",
         "size": 5,
         "variation": 2,
         "frequency": 3,
@@ -186,8 +186,8 @@
         "max_height": 60
       },
       {
-        "block": "substratum:ore:3",
-        "state": "ore=zinc",
+        "block": "substratum:ore",
+        "state": "variant=zinc",
         "size": 8,
         "variation": 4,
         "frequency": 5,
@@ -195,17 +195,16 @@
         "max_height": 60
       },
       {
-        "block": "tile.techreborn.ore:1",
-        "state":"type=iridium",
-        "size": 5,
-        "variation": 3,
-        "frequency": 4,
-        "min_height": 15,
-        "max_height": 30
+        "block": "mekanism:OreBlock",
+        "size": 18,
+        "variation": 16,
+        "frequency": 10,
+        "min_height": 16,
+        "max_height": 60
       },
       {
-        "block": "immersiveengineering:ore:1",
-        "state": "type=aluminum",
+        "block": "immersiveengineering:ore",
+        "state": "variant=aluminum",
         "size": 16,
         "variation": 10,
         "frequency": 6,
@@ -214,7 +213,7 @@
       },
       {
         "block": "bigreactors:brOre",
-        "state": "ore=yellorite",
+        "state": "variant=yellorite",
         "size": 16,
         "variation": 10,
         "frequency": 16,

@@ -56,7 +56,7 @@
     {
       "Entity Class": "williamle.drones.entity.EntityDroneBaby",
       "Weight": 10,
-      "Min Group Count": 1,
+      "Min Group Count": 2,
       "Max Group Count": 8
     },
     {
@@ -67,9 +67,9 @@
     },
     {
       "Entity Class": "williamle.drones.entity.EntityDroneWildItem",
-      "Weight": 5,
+      "Weight": 10,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -132,6 +132,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",

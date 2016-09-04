@@ -73,6 +73,7 @@
                     what: "armorplus:electrical_block"
                 },
                 // Reliquary balance
+                /* Disabled because it's already disabled in the config
                 {
                     type: "remove",
                     what: "xreliquary:alkahestry_tome"
@@ -88,7 +89,7 @@
                 {
                     type: "hide",
                     what: "xreliquary:interdiction_torch"
-                },
+                },*/
 
                 //Hide some Tinker I/O stuff
                 {
@@ -112,7 +113,7 @@
                 // Ore dict fixes
                 //
 
-                // Making IE bauxite smelt/grind in TechReborn machines
+                // Making IE bauxite smelt/grind in other machines
                 {
                     type: "registerOreDictItem",
                     what: "immersiveengineering:ore:1",
