@@ -867,7 +867,79 @@
                            }
                        ]
                 },
+                // Recipes for vanilla items
 
+                // Saddle
+                {
+                    type: "addShaped",
+                    output: "minecraft:saddle",
+                    quantity: 1,
+                    with: [
+                        "minecraft:leather", "minecraft:leather","minecraft:leather",
+                        "minecraft:string", "minecraft:iron_ingot", "minecraft:string",
+                        "", "",""
+                    ]
+                },
+                // Name tag
+                {
+                    type: "addShaped",
+                    output: "minecraft:name_tag",
+                    quantity: 4,
+                    with: [
+                      "", "","",
+                      "minecraft:string", "minecraft:iron_ingot", "",
+                      "", "",""
+                    ]
+                },
+
+                // Unify vanilla tools crafting
+
+                {
+                    type: "remove",
+                    what: "minecraft:stone_axe"
+                },
+
+                {
+                    type: "remove",
+                    what: "minecraft:stone_pickaxe"
+                },
+
+                {
+                    type: "remove",
+                    what: "minecraft:stone_shovel"
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:stone_axe",
+                    quantity: 1,
+                    with: [
+                        "<stone>", "<stone>","",
+                        "<stone>", "minecraft:stick", "",
+                        "", "minecraft:stick",""
+                    ]
+                },
+
+                {
+                    type: "addShaped",
+                    output: "minecraft:stone_shovel",
+                    quantity: 1,
+                    with: [
+                      "", "<stone>","",
+                      "", "minecraft:stick", "",
+                      "", "minecraft:stick",""
+                    ]
+                },
+
+                {
+                    type: "addShaped",
+                    output: "minecraft:stone_pickaxe",
+                    quantity: 1,
+                    with: [
+                      "<stone>", "<stone>","<stone>",
+                      "", "minecraft:stick", "",
+                      "", "minecraft:stick",""
+                    ]
+                },
                 // Starter set
                 {
                     type: "addStarterItem",
