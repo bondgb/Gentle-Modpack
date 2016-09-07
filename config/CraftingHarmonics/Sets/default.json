@@ -175,29 +175,44 @@
                     output: "rftools:machine_frame",
                     quantity: 1,
                     with: [
-                        "minecraft:iron_ingot", "minecraft:ender_pearl","minecraft:iron_ingot",
-                        "minecraft:iron_ingot", "minecraft:iron_block", "minecraft:iron_ingot",
-                        "minecraft:iron_ingot", "minecraft:ender_pearl","minecraft:iron_ingot"
+                        "minecraft:iron_ingot", "minecraft:redstone_block","minecraft:iron_ingot",
+                        "minecraft:iron_ingot", "enderio:itemBasicCapacitor", "minecraft:iron_ingot",
+                        "minecraft:iron_ingot", "minecraft:iron_ingot","minecraft:iron_ingot"
+                    ]
+                },
+
+                {
+                    type: "remove",
+                    what: "rftools:crafter2"
+                },
+                {
+                    type: "addShaped",
+                    output: "rftools:crafter2",
+                    quantity: 1,
+                    with: [
+                        "", "minecraft:crafting_table","",
+                        "minecraft:redstone_torch", "rftools:crafter", "minecraft:redstone_torch",
+                        "", "enderio:itemBasicCapacitor:1",""
+                    ]
+                },
+
+                {
+                    type: "remove",
+                    what: "rftools:crafter3"
+                },
+                {
+                    type: "addShaped",
+                    output: "rftools:crafter3",
+                    quantity: 1,
+                    with: [
+                        "", "minecraft:crafting_table","",
+                        "minecraft:redstone_torch", "rftools:crafter2", "minecraft:redstone_torch",
+                        "", "enderio:itemBasicCapacitor:2",""
                     ]
                 },
 
                 //EndeRIO Frame recipe
 
-                {
-                    type: "remove",
-                    what: "enderio:itemMachinePart"
-                },
-
-                {
-                    type: "addShaped",
-                    output:"enderio:itemMachinePart",
-                    quantity: 1,
-                    with: [
-                        "minecraft:barsIron", "minecraft:iron_ingot", "minecraft:barsIron",
-                        "minecraft:ender_pearl", "enderio:itemBasicCapacitor", "minecraft:ender_pearl",
-                        "minecraft:barsIron", "minecraft:iron_ingot","minecraft:barsIron"
-                    ]
-                },
                 //Computercraft recipe rebalance
                 {
                     type: "remove",
@@ -856,7 +871,7 @@
                 // Starter set
                 {
                     type: "addStarterItem",
-                    what: ["enchiridion:book:0:1:={identifier:\"Guidebook\"}", "minecraft:stone_axe","minecraft:apple:0:5", "toughasnails:canteen", "minecraft:flint_and_steel:62:1"]
+                    what: ["enchiridion:book:0:1:={identifier:\"Guidebook\"}", "minecraft:stone_axe","minecraft:apple:0:5", "toughasnails:canteen"]
                 }
             ]
         }

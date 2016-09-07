@@ -42,6 +42,18 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.reptiles.common.EntityGriseus",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.reptiles.common.EntityDesertTortoise",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
