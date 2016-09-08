@@ -191,7 +191,7 @@
                     quantity: 1,
                     with: [
                         "", "minecraft:crafting_table","",
-                        "minecraft:redstone_torch", "rftools:crafter", "minecraft:redstone_torch",
+                        "minecraft:redstone_torch", "rftools:crafter1", "minecraft:redstone_torch",
                         "", "enderio:itemBasicCapacitor:1",""
                     ]
                 },
