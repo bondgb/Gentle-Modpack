@@ -69,7 +69,7 @@
     <iron_ore>
       <registry_name>minecraft:iron_ore</registry_name>
       <size_vein>14</size_vein>
-      <n_tries>10</n_tries>
+      <n_tries>12</n_tries>
       <max_y>60</max_y>
       <min_y>14</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -102,7 +102,7 @@
     <lapis_ore>
       <registry_name>minecraft:lapis_ore</registry_name>
       <size_vein>22</size_vein>
-      <n_tries>2</n_tries>
+      <n_tries>4</n_tries>
       <max_y>32</max_y>
       <min_y>1</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -113,7 +113,7 @@
     <emerald_ore>
       <registry_name>minecraft:emerald_ore</registry_name>
       <size_vein>6</size_vein>
-      <n_tries>2</n_tries>
+      <n_tries>3</n_tries>
       <max_y>21</max_y>
       <min_y>1</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -135,7 +135,7 @@
     <osmium_ore>
       <registry_name>mekanism:OreBlock[type=osmium]</registry_name>
       <size_vein>16</size_vein>
-      <n_tries>5</n_tries>
+      <n_tries>7</n_tries>
       <max_y>60</max_y>
       <min_y>14</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -143,10 +143,21 @@
       <dimensions>0</dimensions>
     </osmium_ore>
 
+    <bauxite>
+      <registry_name>immersiveengineering:ore[type=aluminum]</registry_name>
+      <size_vein>12</size_vein>
+      <n_tries>6</n_tries>
+      <max_y>60</max_y>
+      <min_y>20</min_y>
+      <blockMatcher>minecraft:stone</blockMatcher>
+      <biomes>0;Ocean, 1;Plains, 2;Desert, 3;Extreme Hills, 4;Forest, 5;Taiga, 6;Swampland, 7;River, 8;Hell, 9;The End, 10;FrozenOcean, 11;FrozenRiver, 12;Ice Plains, 13;Ice Mountains, 14;MushroomIsland, 15;MushroomIslandShore, 16;Beach, 17;DesertHills, 18;ForestHills, 19;TaigaHills, 20;Extreme Hills Edge, 21;Jungle, 22;JungleHills, 23;JungleEdge, 24;Deep Ocean, 25;Stone Beach, 26;Cold Beach, 27;Birch Forest, 28;Birch Forest Hills, 29;Roofed Forest, 30;Cold Taiga, 31;Cold Taiga Hills, 32;Mega Taiga, 33;Mega Taiga Hills, 34;Extreme Hills+, 35;Savanna, 36;Savanna Plateau, 37;Mesa, 38;Mesa Plateau F, 39;Mesa Plateau, 40;Gravel Beach, 41;Alps, 42;Bamboo Forest, 43;Bayou, 44;Bog, 45;Boreal Forest, 46;Brushland, 47;Chaparral, 48;Cherry Blossom Grove, 49;Cold Desert, 50;Coniferous Forest, 51;Crag, 52;Dead Forest, 53;Dead Swamp, 54;Eucalyptus Forest, 55;Fen, 56;Flower Field, 57;Grassland, 58;Grove, 59;Heathland, 60;Highland, 61;Land of Lakes, 62;Lavender Fields, 63;Lush Desert, 64;Lush Swamp, 65;Maple Woods, 66;Marsh, 67;Meadow, 68;Moor, 69;Mountain Peaks, 70;Mystic Grove, 71;Ominous Woods, 72;Orchard, 73;Outback, 74;Overgrown Cliffs, 75;Prairie, 76;Quagmire, 77;Rainforest, 78;Redwood Forest, 79;Sacred Springs, 80;Seasonal Forest, 81;Shield, 82;Shrubland, 83;Snowy Coniferous Forest, 84;Snowy Forest, 85;Steppe, 86;Temperate Rainforest, 87;Tropical Rainforest, 88;Tundra, 89;Wasteland, 90;Wetland, 91;Woodland, 92;Xeric Shrubland, 93;Mountain Foothills, 94;Glacier, 95;Oasis, 96;Coral Reef, 97;Kelp Forest, 98;Mangrove, 99;Origin Island, 100;Tropical Island, 101;Volcanic Island, 102;Flower Island, 103;Meneglin, 104;Hell, 105;Forgotten Sands, 106;Fungi Forest, 107;Blazing Inferno, 108;Freezing Blizzard, 127;The Void, 129;Sunflower Plains, 130;Desert M, 131;Extreme Hills M, 132;Flower Forest, 133;Taiga M, 134;Swampland M, 140;Ice Plains Spikes, 149;Jungle M, 151;JungleEdge M, 155;Birch Forest M, 156;Birch Forest Hills M, 157;Roofed Forest M, 158;Cold Taiga M, 160;Mega Spruce Taiga, 161;Redwood Taiga Hills M, 162;Extreme Hills+ M, 163;Savanna M, 164;Savanna Plateau M, 165;Mesa (Bryce), 166;Mesa Plateau F M, 167;Mesa Plateau M</biomes>
+      <dimensions>0</dimensions>
+    </bauxite>
+
     <copper_ore>
       <registry_name>substratum:ore[ore=copper]</registry_name>
       <size_vein>11</size_vein>
-      <n_tries>7</n_tries>
+      <n_tries>10</n_tries>
       <max_y>50</max_y>
       <min_y>20</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -157,7 +168,7 @@
     <tin_ore>
       <registry_name>substratum:ore[ore=tin]</registry_name>
       <size_vein>7</size_vein>
-      <n_tries>4</n_tries>
+      <n_tries>8</n_tries>
       <max_y>36</max_y>
       <min_y>0</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -168,7 +179,7 @@
     <nickel_ore>
       <registry_name>substratum:ore[ore=nickel]</registry_name>
       <size_vein>10</size_vein>
-      <n_tries>5</n_tries>
+      <n_tries>8</n_tries>
       <max_y>36</max_y>
       <min_y>0</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -179,7 +190,7 @@
     <silver_ore>
       <registry_name>substratum:ore[ore=silver]</registry_name>
       <size_vein>14</size_vein>
-      <n_tries>5</n_tries>
+      <n_tries>9</n_tries>
       <max_y>42</max_y>
       <min_y>0</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -190,7 +201,7 @@
     <lead_ore>
       <registry_name>substratum:ore[ore=lead]</registry_name>
       <size_vein>7</size_vein>
-      <n_tries>5</n_tries>
+      <n_tries>7</n_tries>
       <max_y>48</max_y>
       <min_y>16</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
@@ -201,13 +212,24 @@
     <platinum_ore>
       <registry_name>substratum:ore[ore=platinum]</registry_name>
       <size_vein>5</size_vein>
-      <n_tries>4</n_tries>
+      <n_tries>6</n_tries>
       <max_y>30</max_y>
       <min_y>15</min_y>
       <blockMatcher>minecraft:stone</blockMatcher>
       <biomes>0;Ocean, 1;Plains, 2;Desert, 3;Extreme Hills, 4;Forest, 5;Taiga, 6;Swampland, 7;River, 8;Hell, 9;The End, 10;FrozenOcean, 11;FrozenRiver, 12;Ice Plains, 13;Ice Mountains, 14;MushroomIsland, 15;MushroomIslandShore, 16;Beach, 17;DesertHills, 18;ForestHills, 19;TaigaHills, 20;Extreme Hills Edge, 21;Jungle, 22;JungleHills, 23;JungleEdge, 24;Deep Ocean, 25;Stone Beach, 26;Cold Beach, 27;Birch Forest, 28;Birch Forest Hills, 29;Roofed Forest, 30;Cold Taiga, 31;Cold Taiga Hills, 32;Mega Taiga, 33;Mega Taiga Hills, 34;Extreme Hills+, 35;Savanna, 36;Savanna Plateau, 37;Mesa, 38;Mesa Plateau F, 39;Mesa Plateau, 40;Gravel Beach, 41;Alps, 42;Bamboo Forest, 43;Bayou, 44;Bog, 45;Boreal Forest, 46;Brushland, 47;Chaparral, 48;Cherry Blossom Grove, 49;Cold Desert, 50;Coniferous Forest, 51;Crag, 52;Dead Forest, 53;Dead Swamp, 54;Eucalyptus Forest, 55;Fen, 56;Flower Field, 57;Grassland, 58;Grove, 59;Heathland, 60;Highland, 61;Land of Lakes, 62;Lavender Fields, 63;Lush Desert, 64;Lush Swamp, 65;Maple Woods, 66;Marsh, 67;Meadow, 68;Moor, 69;Mountain Peaks, 70;Mystic Grove, 71;Ominous Woods, 72;Orchard, 73;Outback, 74;Overgrown Cliffs, 75;Prairie, 76;Quagmire, 77;Rainforest, 78;Redwood Forest, 79;Sacred Springs, 80;Seasonal Forest, 81;Shield, 82;Shrubland, 83;Snowy Coniferous Forest, 84;Snowy Forest, 85;Steppe, 86;Temperate Rainforest, 87;Tropical Rainforest, 88;Tundra, 89;Wasteland, 90;Wetland, 91;Woodland, 92;Xeric Shrubland, 93;Mountain Foothills, 94;Glacier, 95;Oasis, 96;Coral Reef, 97;Kelp Forest, 98;Mangrove, 99;Origin Island, 100;Tropical Island, 101;Volcanic Island, 102;Flower Island, 103;Meneglin, 104;Hell, 105;Forgotten Sands, 106;Fungi Forest, 107;Blazing Inferno, 108;Freezing Blizzard, 127;The Void, 129;Sunflower Plains, 130;Desert M, 131;Extreme Hills M, 132;Flower Forest, 133;Taiga M, 134;Swampland M, 140;Ice Plains Spikes, 149;Jungle M, 151;JungleEdge M, 155;Birch Forest M, 156;Birch Forest Hills M, 157;Roofed Forest M, 158;Cold Taiga M, 160;Mega Spruce Taiga, 161;Redwood Taiga Hills M, 162;Extreme Hills+ M, 163;Savanna M, 164;Savanna Plateau M, 165;Mesa (Bryce), 166;Mesa Plateau F M, 167;Mesa Plateau M</biomes>
       <dimensions>0</dimensions>
     </platinum_ore>
+
+    <biome_essence>
+      <registry_name>biomesoplenty:biome_block</registry_name>
+      <size_vein>5</size_vein>
+      <n_tries>2</n_tries>
+      <max_y>40</max_y>
+      <min_y>15</min_y>
+      <blockMatcher>minecraft:stone</blockMatcher>
+      <biomes>0;Ocean, 1;Plains, 2;Desert, 3;Extreme Hills, 4;Forest, 5;Taiga, 6;Swampland, 7;River, 8;Hell, 9;The End, 10;FrozenOcean, 11;FrozenRiver, 12;Ice Plains, 13;Ice Mountains, 14;MushroomIsland, 15;MushroomIslandShore, 16;Beach, 17;DesertHills, 18;ForestHills, 19;TaigaHills, 20;Extreme Hills Edge, 21;Jungle, 22;JungleHills, 23;JungleEdge, 24;Deep Ocean, 25;Stone Beach, 26;Cold Beach, 27;Birch Forest, 28;Birch Forest Hills, 29;Roofed Forest, 30;Cold Taiga, 31;Cold Taiga Hills, 32;Mega Taiga, 33;Mega Taiga Hills, 34;Extreme Hills+, 35;Savanna, 36;Savanna Plateau, 37;Mesa, 38;Mesa Plateau F, 39;Mesa Plateau, 40;Gravel Beach, 41;Alps, 42;Bamboo Forest, 43;Bayou, 44;Bog, 45;Boreal Forest, 46;Brushland, 47;Chaparral, 48;Cherry Blossom Grove, 49;Cold Desert, 50;Coniferous Forest, 51;Crag, 52;Dead Forest, 53;Dead Swamp, 54;Eucalyptus Forest, 55;Fen, 56;Flower Field, 57;Grassland, 58;Grove, 59;Heathland, 60;Highland, 61;Land of Lakes, 62;Lavender Fields, 63;Lush Desert, 64;Lush Swamp, 65;Maple Woods, 66;Marsh, 67;Meadow, 68;Moor, 69;Mountain Peaks, 70;Mystic Grove, 71;Ominous Woods, 72;Orchard, 73;Outback, 74;Overgrown Cliffs, 75;Prairie, 76;Quagmire, 77;Rainforest, 78;Redwood Forest, 79;Sacred Springs, 80;Seasonal Forest, 81;Shield, 82;Shrubland, 83;Snowy Coniferous Forest, 84;Snowy Forest, 85;Steppe, 86;Temperate Rainforest, 87;Tropical Rainforest, 88;Tundra, 89;Wasteland, 90;Wetland, 91;Woodland, 92;Xeric Shrubland, 93;Mountain Foothills, 94;Glacier, 95;Oasis, 96;Coral Reef, 97;Kelp Forest, 98;Mangrove, 99;Origin Island, 100;Tropical Island, 101;Volcanic Island, 102;Flower Island, 103;Meneglin, 104;Hell, 105;Forgotten Sands, 106;Fungi Forest, 107;Blazing Inferno, 108;Freezing Blizzard, 127;The Void, 129;Sunflower Plains, 130;Desert M, 131;Extreme Hills M, 132;Flower Forest, 133;Taiga M, 134;Swampland M, 140;Ice Plains Spikes, 149;Jungle M, 151;JungleEdge M, 155;Birch Forest M, 156;Birch Forest Hills M, 157;Roofed Forest M, 158;Cold Taiga M, 160;Mega Spruce Taiga, 161;Redwood Taiga Hills M, 162;Extreme Hills+ M, 163;Savanna M, 164;Savanna Plateau M, 165;Mesa (Bryce), 166;Mesa Plateau F M, 167;Mesa Plateau M</biomes>
+      <dimensions>0</dimensions>
+    </biome_essence>
 
     <yellorite_ore>
       <registry_name>bigreactors:brOre[ore=yellorite]</registry_name>
