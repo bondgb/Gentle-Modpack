@@ -5,7 +5,7 @@
       <biome type="BASE_LAND_TYPES" />
     </biomeFilter>
   </entry>
- --> 
+ -->
 
 <!-- Enabling this section will remove the default wither witch spawn config and replace it with
      a new config with a higher spawn rate
@@ -35,5 +35,12 @@
     <dimensionExclude name="Twilight Forest"/>
   </entry>
 -->
+
+<entry id="Buffalo" mobName="totemic.buffalo" rate="5" minGroupSize="1" maxGroupSize="2">
+  <biomeFilter type="any">
+    <biome type="PLAINS" />
+  </biomeFilter>
+  <dimensionExclude name="Twilight Forest"/>
+</entry>
 
 </SpawnConfig>

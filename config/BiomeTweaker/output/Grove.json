@@ -73,6 +73,18 @@
       "Max Group Count": 5
     },
     {
+      "Entity Class": "com.betkekk.earthlifemod.entity.EntityMonitor",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.betkekk.earthlifemod.entity.EntityDeer",
+      "Weight": 15,
+      "Min Group Count": 8,
+      "Max Group Count": 10
+    },
+    {
       "Entity Class": "crazypants.enderzoo.entity.EntityOwl",
       "Weight": 5,
       "Min Group Count": 1,
@@ -229,6 +241,12 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "totemic_commons.pokefenn.entity.animal.EntityBuffalo",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawnable Water Creatures": [

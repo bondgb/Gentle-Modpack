@@ -61,6 +61,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.setycz.chickens.chicken.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [

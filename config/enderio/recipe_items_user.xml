@@ -1,4 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
 
+  <recipe name="Conduit, Liquid, Basic" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="FUSED_GLASS" /><item name="FUSED_GLASS" /><item name="FUSED_GLASS" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemLiquidConduit:0" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:0" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:0" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Liquid, Advanced" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="FUSED_QUARTZ" /><item name="FUSED_QUARTZ" /><item name="FUSED_QUARTZ" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemLiquidConduit:1" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:1" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:1" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Liquid, Advanced (upgrade)" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="FUSED_QUARTZ" /><item name="enderio:itemLiquidConduit:0" /><item name="FUSED_QUARTZ" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemLiquidConduit:1" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:1" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:1" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Liquid, Ender" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="VIBRANT_ALLOY" /><item name="FUSED_QUARTZ" /><item name="VIBRANT_ALLOY" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemLiquidConduit:2" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:2" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:2" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Liquid, Ender (upgrade)" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="VIBRANT_ALLOY" /><item name="enderio:itemLiquidConduit:1" /><item name="VIBRANT_ALLOY" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemLiquidConduit:2" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:2" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemLiquidConduit:2" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Endergy, Tier 1" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="CONDUCTIVE_IRON" /><item name="CONDUCTIVE_IRON" /><item name="CONDUCTIVE_IRON" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemPowerConduit:0" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemPowerConduit:0" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemPowerConduit:0" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Endergy, Tier 2" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="ENERGETIC_ALLOY" /><item name="ENERGETIC_ALLOY" /><item name="ENERGETIC_ALLOY" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemPowerConduit:1" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemPowerConduit:1" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemPowerConduit:1" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Endergy, Tier 2 (upgrade)" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="ENERGETIC_ALLOY" /><item name="enderio:itemPowerConduit:0" /><item name="ENERGETIC_ALLOY" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemPowerConduit:1" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemPowerConduit:1" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemPowerConduit:1" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Endergy, Tier 3" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="VIBRANT_ALLOY" /><item name="VIBRANT_ALLOY" /><item name="VIBRANT_ALLOY" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemPowerConduit:2" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemPowerConduit:2" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemPowerConduit:2" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Endergy, Tier 3 (upgrade)" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="VIBRANT_ALLOY" /><item name="enderio:itemPowerConduit:1" /><item name="VIBRANT_ALLOY" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemPowerConduit:2" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemPowerConduit:2" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemPowerConduit:2" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Redstone, Insulated" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="REDSTONE_ALLOY" /><item name="REDSTONE_ALLOY" /><item name="REDSTONE_ALLOY" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemRedstoneConduit:0" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemRedstoneConduit:0" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemRedstoneConduit:0" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+   <alias name="GAS_CONDUIT" item="minecraft:stone:0">
+    <!-- prevent log messages from the output tags using this -->
+    <dependency item="enderio:itemGasConduit:0" reverse="true"/>
+  </alias>
+
+  <recipe name="Conduit, Gas" required="true">
+    <config name="gasConduitEnabled" section="Item Enabling" value="true"/>
+    <dependency item="enderio:itemGasConduit:0" />
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="ELECTRICAL_STEEL" /><item name="FUSED_QUARTZ" /><item name="ELECTRICAL_STEEL" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="GAS_CONDUIT" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="GAS_CONDUIT" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="GAS_CONDUIT" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <alias name="OC_CONDUIT" item="enderio:itemOCConduit:0">
+    <dependency item="enderio:itemOCConduit:0" reverse="false"/>
+  </alias>
+  <alias name="OC_CONDUIT" item="minecraft:stone:0">
+    <!-- prevent log messages from the output tags using this -->
+    <dependency item="enderio:itemOCConduit:0" reverse="true"/>
+  </alias>
+
+  <recipe name="Conduit, Computer" required="true">
+    <config name="enableOCConduits" section="Item Enabling" value="true"/>
+    <dependency item="enderio:itemOCConduit:0" />
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="REDSTONE_ALLOY" /><item name="ingotIron" /><item name="REDSTONE_ALLOY" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="OC_CONDUIT" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="OC_CONDUIT" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="OC_CONDUIT" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <alias name="ME_CONDUIT" item="minecraft:stone:0">
+    <!-- prevent log messages from the output tags using this -->
+    <dependency item="enderio:itemMEConduit:0" reverse="true"/>
+  </alias>
+
+  <recipe name="Conduit, ME" required="true">
+    <config name="enableMEConduits" section="Item Enabling" value="true"/>
+    <dependency item="enderio:itemMEConduit:0" />
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="crystalFluix" /><item name="AEApi.instance().parts().partQuartzFiber.stack(1).copy() ???" /><item name="crystalFluix" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="ME_CONDUIT" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="ME_CONDUIT" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="ME_CONDUIT" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, ME (pure)" required="true">
+    <config name="enableMEConduits" section="Item Enabling" value="true"/>
+    <dependency item="enderio:itemMEConduit:0" />
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="crystalPureFluix" /><item name="AEApi.instance().parts().partQuartzFiber.stack(1).copy() ???" /><item name="crystalPureFluix" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="ME_CONDUIT" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="ME_CONDUIT" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="ME_CONDUIT" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <alias name="ME_CONDUIT_DENSE" item="minecraft:stone:0">
+    <!-- prevent log messages from the output tags using this -->
+    <dependency item="enderio:itemMEConduit:1" reverse="true"/>
+  </alias>
+
+  <recipe name="Conduit, ME, dense" required="true">
+    <config name="enableMEConduits" section="Item Enabling" value="true"/>
+    <dependency item="enderio:itemMEConduit:1" />
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="ME_CONDUIT" /><item name="CONDUIT_BINDER" />
+        <item name="ME_CONDUIT" /><item name="CONDUIT_BINDER" /><item name="ME_CONDUIT" />
+        <item name="CONDUIT_BINDER" /><item name="ME_CONDUIT" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="ME_CONDUIT_DENSE" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="ME_CONDUIT_DENSE" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="ME_CONDUIT_DENSE" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
+  <recipe name="Conduit, Item" required="true">
+    <crafting>
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="PULSATING_IRON_NUGGET" /><item name="PULSATING_IRON_NUGGET" /><item name="PULSATING_IRON_NUGGET" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+      </grid>
+      <output name="enderio:itemItemConduit:0" amount="12">
+        <level maxlevel="1"/>
+      </output>
+      <output name="enderio:itemItemConduit:0" amount="8">
+        <level minlevel="2" maxlevel="2"/>
+      </output>
+      <output name="enderio:itemItemConduit:0" amount="12">
+        <level minlevel="3"/>
+      </output>
+    </crafting>
+  </recipe>
+
 </enderio:recipes>

@@ -113,14 +113,22 @@
       </output>
     </recipe>
 
-    <recipe name="Galena" energyCost="620" >
+    <recipe name="GoldOre" energyCost="3600" >
       <input>
-        <itemStack oreDictionary="oreGalena" />
+        <itemStack oreDictionary="oreGold" />
       </input>
       <output>
-        <itemStack modID="techreborn" itemName="dust" itemMeta="23" number="1" chance="0.9" />
+        <itemStack oreDictionary="dustGold" number="2" />
+        <itemStack oreDictionary="dustCopper" number="1" chance="0.2" />
+        <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" chance="0.10" />
       </output>
     </recipe>
+    <grindingBalls>
+      <grindingBall id="Slag" grindingMultiplier="1.5" chanceMultiplier="1.50" powerMultiplier="0.8" durationRF="50000" >
+        <itemStack oreDictionary="itemSlag" />
+      </grindingBall>
+    </grindingBalls>
 
   </recipeGroup>
 

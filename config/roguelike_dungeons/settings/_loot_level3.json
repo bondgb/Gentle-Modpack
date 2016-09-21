@@ -80,6 +80,7 @@
 				{"data" : {"name" : "redstone"}, "weight" : 3},
 				{"data" : {"name" : "glowstone_dust"}, "weight" : 5},
 				{"data" : {"name" : "gunpowder", "min" : 3, "max" : 7}, "weight" : 1}
+				{"data" : {"name" : "extrautils2:EnderLilly"}, "weight" : 2},
 			],
 			"level" : 3,
 			"each" : true,

@@ -1,0 +1,816 @@
+{
+    name: "Gentle Modpack",
+    description: "Recipe changes for Gentle Modpack.",
+    sets: [
+        {
+            name: "default",
+            operations: [
+              {
+                  __comment: "You can register new smeltery melting recipes",
+                  __result: "Adds a recipe to melt down a water bucket into 1000mb of water",
+                  type: "addSmelteryMelt",
+                  what: "iron",
+                  amount: 864,
+                  with: "minecraft:chainmail_chestplate"
+              },
+              {
+                  __comment: "You can register new smeltery melting recipes",
+                  __result: "Adds a recipe to melt down a water bucket into 1000mb of water",
+                  type: "addSmelteryMelt",
+                  what: "iron",
+                  amount: 576,
+                  with: "minecraft:chainmail_helmet"
+              },
+              {
+                  __comment: "You can register new smeltery melting recipes",
+                  __result: "Adds a recipe to melt down a water bucket into 1000mb of water",
+                  type: "addSmelteryMelt",
+                  what: "iron",
+                  amount: 576,
+                  with: "minecraft:chainmail_boots"
+              },
+              {
+                  __comment: "You can register new smeltery melting recipes",
+                  __result: "Adds a recipe to melt down a water bucket into 1000mb of water",
+                  type: "addSmelteryMelt",
+                  what: "iron",
+                  amount: 864,
+                  with: "minecraft:chainmail_leggings"
+              },
+                {
+                    type: "hide",
+                    what: "armorplus:slime_boots"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:slime_helmet"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:slime_chestplate"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:slime_leggings"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_boots"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_helmet"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_chestplate"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_leggings"
+                },
+                {
+                    type: "remove",
+                    what: "armorplus:steel_ingot"
+                },
+                {
+                    type: "remove",
+                    what: "armorplus:steel_block"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:steel_ingot"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:steel_block"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_ingot"
+                },
+                {
+                    type: "hide",
+                    what: "armorplus:electrical_block"
+                },
+                {
+                    type: "hide",
+                    what: "tinker_io:Ore_Crusher"
+                },
+                {
+                    type: "remove",
+                    what: "tinker_io:Ore_Crusher"
+                },
+                {
+                    type: "hide",
+                    what: "tinker_io:Stirling_Engine"
+                },
+                {
+                    type: "remove",
+                    what: "tinker_io:Stirling_Engine"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "immersiveengineering:ore:1",
+                    oreDict: "oreBauxite"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "earthlifemod:giraffe_leather",
+                    oreDict: "itemLeather"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "earthlifemod:venison",
+                    oreDict: "listAllmeatraw"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "totemic:buffaloItems:0",
+                    oreDict: "itemLeather"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "darkutils:material:0",
+                    oreDict: "dustWither"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "enderzoo:witheringDust",
+                    oreDict: "dustWither"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "immersiveengineering:metal:1",
+                    oreDict: "ingotAluminium"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "immersiveengineering:metal:21",
+                    oreDict: "nuggetAluminium"
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "immersiveengineering:metal:10",
+                    oreDict: "dustAluminium"
+                },
+                {
+
+                    type: "registerOreDictItem",
+                    what: "substratum:dustSmall:28",
+                    oreDict: "dustSmallAluminium"
+                },
+                {
+                    type: "remove",
+                    what: "biomesoplenty:biome_finder"
+                },
+                {
+                    type: "addShaped",
+                    what: "biomesoplenty:biome_finder",
+                    quantity: 1,
+                    with: [
+                        "", "minecraft:ender_pearl","",
+                        "minecraft:ender_pearl", "minecraft:blaze_rod", "minecraft:ender_pearl",
+                        "", "minecraft:ender_pearl",""
+                    ]
+                },
+                {
+                    type: "remove",
+                    what: "rftools:machine_frame"
+                },
+                {
+                    type: "addShaped",
+                    output: "rftools:machine_frame",
+                    quantity: 1,
+                    with: [
+                        "minecraft:iron_ingot", "minecraft:redstone_block","minecraft:iron_ingot",
+                        "minecraft:iron_ingot", "enderio:itemBasicCapacitor", "minecraft:iron_ingot",
+                        "minecraft:iron_ingot", "minecraft:iron_ingot","minecraft:iron_ingot"
+                    ]
+                },
+                {
+                    type: "remove",
+                    what: "rftools:crafter2"
+                },
+                {
+                    type: "addShaped",
+                    output: "rftools:crafter2",
+                    quantity: 1,
+                    with: [
+                        "", "minecraft:crafting_table","",
+                        "minecraft:redstone_torch", "rftools:crafter1", "minecraft:redstone_torch",
+                        "", "enderio:itemBasicCapacitor:1",""
+                    ]
+                },
+                {
+                    type: "remove",
+                    what: "rftools:crafter3"
+                },
+                {
+                    type: "addShaped",
+                    output: "rftools:crafter3",
+                    quantity: 1,
+                    with: [
+                        "", "minecraft:crafting_table","",
+                        "minecraft:redstone_torch", "rftools:crafter2", "minecraft:redstone_torch",
+                        "", "enderio:itemBasicCapacitor:2",""
+                    ]
+                },
+                {
+                    type: "remove",
+                    what: "computercraft:CC-Computer:0"
+                },
+                {
+                    type: "addShaped",
+                    output: "computercraft:CC-Computer:0",
+                    quantity: 1,
+                    with: [
+                        "minecraft:iron_block", "minecraft:ender_pearl","minecraft:iron_block",
+                        "minecraft:gold_ingot", "minecraft:redstone_block", "minecraft:gold_ingot",
+                        "minecraft:iron_block", "minecraft:ender_pearl","minecraft:iron_block"
+                    ]
+                },
+                {
+                    type: "remove",
+                    what: "computercraft:CC-Computer:16384"
+                },
+                {
+                    type: "addShaped",
+                    output: "computercraft:CC-Computer:16384",
+                    quantity: 1,
+                    with: [
+                        "minecraft:gold_ingot", "minecraft:gold_ingot","minecraft:gold_ingot",
+                        "minecraft:gold_ingot", "computercraft:CC-Computer:0", "minecraft:gold_ingot",
+                        "minecraft:gold_ingot", "minecraft:ender_pearl","minecraft:gold_ingot"
+                    ]
+                },
+                {
+                    type: "hide",
+                    what: "malisisdoors:trapdoor_spruce"
+                },
+                {
+                    type: "remove",
+                    what: "malisisdoors:trapdoor_spruce"
+                },
+
+                {
+                    type: "hide",
+                    what: "malisisdoors:trapdoor_dark_oak"
+                },
+                {
+                    type: "remove",
+                    what: "malisisdoors:trapdoor_dark_oak"
+                },
+
+                {
+                    type: "hide",
+                    what: "malisisdoors:trapdoor_jungle"
+                },
+                {
+                    type: "remove",
+                    what: "malisisdoors:trapdoor_jungle"
+                },
+
+                {
+                    type: "hide",
+                    what: "malisisdoors:trapdoor_acacia"
+                },
+                {
+                    type: "remove",
+                    what: "malisisdoors:trapdoor_acacia"
+                },
+                {
+                    type: "remove",
+                    what: "bigreactors:reactorCasing"
+                },
+                {
+                    type: "addShaped",
+                    output: "bigreactors:reactorCasing",
+                    quantity: 4,
+                    with: [
+                        "<ingotSteel>", "<ingotGraphite>","<ingotSteel>",
+                        "<ingotGraphite>", "bigreactors:reactorCasingCores", "<ingotGraphite>",
+                        "<ingotSteel>", "<ingotGraphite>","<ingotSteel>"
+                    ]
+                },
+                {
+                    type: "remove",
+                    what: "bigreactors:turbineHousing"
+                },
+                {
+                    type: "addShaped",
+                    output: "bigreactors:turbineHousing",
+                    quantity: 4,
+                    with: [
+                        "<ingotSteel>", "<ingotGraphite>","<ingotSteel>",
+                        "<ingotGraphite>", "bigreactors:turbineHousingCores", "<ingotGraphite>",
+                        "<ingotSteel>", "<ingotGraphite>","<ingotSteel>"
+                    ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:elytra",
+                    quantity: 1,
+                    with: [
+                        "minecraft:feather", "minecraft:ender_eye","minecraft:feather",
+                        "minecraft:feather", "", "minecraft:feather"
+                    ]
+                },
+                {
+                    type: "addShapeless",
+                    output: "minecraft:string",
+                    quantity: 3,
+                    with: [
+                        "minecraft:bow:*"
+                    ]
+                },
+                {
+                    type: "remove",
+                    what: "giacomosfoundry:foundry"
+                },
+                {
+                    type: "addShaped",
+                    output: "giacomosfoundry:foundry",
+                    quantity: 1,
+                    with: [
+                        "minecraft:brick_block", "minecraft:brick_block","minecraft:brick_block",
+                        "minecraft:brick_block", "", "minecraft:brick_block",
+                        "minecraft:brick_block", "minecraft:brick_block","minecraft:brick_block"
+                    ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: ["minecraft:sand"],
+                    replace: true,
+                    drops: [
+                            {
+                                what: "minecraft:quartz",
+                                min: 1,
+                                max: 1,
+                                chance:0.1,
+                                silkTouch: false,
+                                minFortuneLevel: 0,
+                                otherwise: {
+                                    min: 1,
+                                    max: 1,
+                                    what: "minecraft:sand",
+                                }
+                           }
+                       ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: ["minecraft:gold_ore"],
+                    replace: false,
+                    drops: [
+                            {
+                                what: "minecraft:glowstone_dust",
+                                min: 1,
+                                max: 4,
+                                chance:0.05,
+                                silkTouch: false,
+                                minFortuneLevel: 0,
+                           }
+                       ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: ["minecraft:coal_ore"],
+                    replace: false,
+                    drops: [
+                            {
+                                what: "minecraft:coal",
+                                min: 1,
+                                max: 2,
+                                chance:0.1,
+                                silkTouch: false,
+                                minFortuneLevel: 0,
+                           }
+                       ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: ["minecraft:tallgrass"],
+                    replace: false,
+                    remove: [
+                            {
+                                what: "extrautils2:EnderLilly",
+                           }
+                       ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:saddle",
+                    quantity: 1,
+                    with: [
+                        "minecraft:leather", "minecraft:leather","minecraft:leather",
+                        "minecraft:string", "minecraft:iron_ingot", "minecraft:string",
+                        "", "",""
+                    ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:name_tag",
+                    quantity: 4,
+                    with: [
+                      "", "","",
+                      "minecraft:string", "minecraft:iron_ingot", "",
+                      "", "",""
+                    ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:leather",
+                    quantity: 2,
+                    with: [
+                      "", "","",
+                      "", "minecraft:leather_helmet", "",
+                      "", "",""
+                    ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:leather",
+                    quantity: 4,
+                    with: [
+                      "", "","",
+                      "", "minecraft:leather_chestplate", "",
+                      "", "",""
+                    ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:leather",
+                    quantity: 4,
+                    with: [
+                      "", "","",
+                      "", "minecraft:leather_leggings", "",
+                      "", "",""
+                    ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:leather",
+                    quantity: 2,
+                    with: [
+                      "", "","",
+                      "", "minecraft:leather_boots", "",
+                      "", "",""
+                    ]
+                },
+                {
+                    type: "registerOreDictItem",
+                    what: "minecraft:cobblestone",
+                    oreDict: "stone"
+                },
+                {
+                    type: "remove",
+                    what: "minecraft:stone_axe"
+                },
+                {
+                    type: "remove",
+                    what: "minecraft:stone_pickaxe"
+                },
+                {
+                    type: "remove",
+                    what: "minecraft:stone_shovel"
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:stone_axe",
+                    quantity: 1,
+                    with: [
+                        "<stone>", "<stone>","",
+                        "<stone>", "minecraft:stick", "",
+                        "", "minecraft:stick",""
+                    ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:stone_shovel",
+                    quantity: 1,
+                    with: [
+                      "", "<stone>","",
+                      "", "minecraft:stick", "",
+                      "", "minecraft:stick",""
+                    ]
+                },
+                {
+                    type: "addShaped",
+                    output: "minecraft:stone_pickaxe",
+                    quantity: 1,
+                    with: [
+                      "<stone>", "<stone>","<stone>",
+                      "", "minecraft:stick", "",
+                      "", "minecraft:stick",""
+                    ]
+                },
+                {
+                    type: "setMobDrops",
+                    what: ["Creeper"],
+                    replace: false,
+                    drops: [
+                        {
+                            what: "xreliquary:mob_ingredient:8",
+                            chance: 0.01,
+                            min: 1,
+                            max: 1,
+                            lootingMultiplier: 1.5,
+                            damageType: "player"
+                        }
+                      ]
+                },
+                {
+                    type: "addStarterItem",
+                    what: ["enchiridion:book:0:1:={identifier:\"Guidebook\"}", "minecraft:stone_axe","minecraft:apple:0:5"]
+                },
+                { type: "remove", what: "agriculturalexpansion:alubrass_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:alubrass_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:alubrass_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:amber_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:amber_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:amber_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:apatite_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:apatite_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:apatite_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:ardite_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:ardite_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:ardite_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:blaze_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:blaze_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:blaze_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:blaze_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:brass_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:brass_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:brass_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:bronze_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:bronze_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:bronze_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:chicken_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:chicken_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:chicken_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:chicken_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:cobalt_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:cobalt_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:cobalt_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:cooked_mob_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:cow_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:cow_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:cow_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:cow_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:creeper_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:creeper_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:creeper_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:creeper_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:dye_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:dye_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:dye_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:earth_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:earth_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:earth_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:electrum_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:electrum_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:electrum_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:enderman_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:enderman_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:enderman_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:enderman_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:fire_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:fire_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:fire_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:ghast_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:ghast_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:ghast_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:ghast_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:guardian_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:guardian_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:guardian_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:guardian_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:invar_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:invar_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:invar_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:iridium_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:iridium_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:iridium_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:malachite_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:malachite_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:malachite_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:manyullyn_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:manyullyn_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:manyullyn_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:nature_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:nature_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:nature_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:nether_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:nether_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:nether_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:peridot_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:peridot_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:peridot_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:pig_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:pig_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:pig_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:pig_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:rabbit_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:rabbit_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:rabbit_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:rabbit_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:rubber_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:rubber_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:rubber_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:ruby_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:ruby_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:ruby_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:sapphire_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:sapphire_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:sapphire_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:sheep_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:sheep_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:sheep_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:sheep_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:skeleton_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:skeleton_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:skeleton_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:skeleton_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:spider_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:spider_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:spider_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:spider_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:sprout_block" },
+
+                { type: "remove", what: "agriculturalexpansion:squid_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:squid_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:squid_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:squid_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:steel_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:steel_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:steel_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:tanzanite_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:tanzanite_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:tanzanite_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:titanium_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:titanium_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:titanium_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:topaz_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:topaz_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:topaz_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:tungsten_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:tungsten_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:tungsten_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:water_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:water_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:water_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:wither_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:wither_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:wither_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:wither_sprout" },
+
+                { type: "remove", what: "agriculturalexpansion:zombie_chunk" },
+
+                { type: "remove", what: "agriculturalexpansion:zombie_crop" },
+
+                { type: "remove", what: "agriculturalexpansion:zombie_essence" },
+
+                { type: "remove", what: "agriculturalexpansion:zombie_sprout" }
+
+            ]
+        }
+    ]
+}

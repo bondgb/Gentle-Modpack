@@ -77,6 +77,12 @@
       "Max Group Count": 5
     },
     {
+      "Entity Class": "com.betkekk.earthlifemod.entity.EntityMonitor",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "com.reptiles.common.EntityKomodo",
       "Weight": 10,
       "Min Group Count": 1,
@@ -203,6 +209,12 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "totemic_commons.pokefenn.entity.animal.EntityBuffalo",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawnable Water Creatures": [

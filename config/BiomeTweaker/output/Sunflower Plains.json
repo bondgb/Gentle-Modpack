@@ -201,6 +201,12 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "totemic_commons.pokefenn.entity.animal.EntityBuffalo",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawnable Water Creatures": [
