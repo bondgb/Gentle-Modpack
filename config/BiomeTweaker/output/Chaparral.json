@@ -1,6 +1,6 @@
 
 {
-  "ID": 47,
+  "ID": 52,
   "Name": "Chaparral",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenChaparral",
   "Root Height": 0.1,
@@ -232,6 +232,6 @@
       "Max Group Count": 8
     }
   ],
-  "Spawn Biome": true,
+  "Spawn Biome": false,
   "Tweaked": true
 }

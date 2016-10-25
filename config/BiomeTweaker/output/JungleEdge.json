@@ -90,6 +90,12 @@
       "Max Group Count": 10
     },
     {
+      "Entity Class": "com.betkekk.earthlifemod.entity.EntityPanda",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "com.setycz.chickens.chicken.EntityChickensChicken",
       "Weight": 10,
       "Min Group Count": 3,

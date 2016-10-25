@@ -521,6 +521,12 @@
                       ]
                 },
                 {
+                    type: "setHarvestLevel",
+                    what: "mc:MinicioOre",
+                    to: 3,
+                    with: "pickaxe"
+                },
+                {
                     type: "addStarterItem",
                     what: ["enchiridion:book:0:1:={identifier:\"Guidebook\"}", "minecraft:stone_axe","minecraft:apple:0:5"]
                 }
